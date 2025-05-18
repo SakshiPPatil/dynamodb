@@ -41,5 +41,7 @@ A strongly consistent read consumes one RCU per 4KB of data read per second. For
 ![Screenshot 2025-05-18 162615](https://github.com/user-attachments/assets/491046f4-2bcf-4402-9a78-59876190d0a0)
 <br/>
 
-
-
+**write capacity unit:** <br/>
+DynamoDB measures write operations in WCUs, which determine the amount of data you can store per second. <br/>
+![Screenshot 2025-05-18 174859](https://github.com/user-attachments/assets/b68edb66-1315-4fdc-b6c3-83080a923aac)
+<br/>
