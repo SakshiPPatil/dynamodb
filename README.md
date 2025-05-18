@@ -12,7 +12,7 @@ DynamoDB is managed by AWS, eliminating the need for users to manage servers, da
 It supports key-value and document data models, allowing for flexible data storage and retrieval. <br/> 
 <br/>
 **High Scalability and Performance:** <br/>
-DynamoDB can handle massive amounts of data and high traffic levels with consistent single-digit millisecond latency.<br/>  
+DynamoDB can handle massive amounts of data and high traffic levels with consistent single-digit millisecond latency.
 <br/>
 **Built-in Security and Availability:** <br/> 
 It offers built-in features like encryption, access control, and multi-region replication for data protection and high availability.<br/>  
@@ -24,4 +24,15 @@ DynamoDB is available in multiple AWS regions, allowing you to deploy your appli
 Supports key-value and document data models, allowing for flexible data storage and retrieval.<br/>  
 **Global Secondary Indexes:**  
 Allows for flexible queries based on attributes other than the primary key.<br/>  
+
+<h5>Key points in dynamodb:</h5>
+
+**read capacity unit:** <br/>
+DynamoDB measures read operations in RCUs, which determine the amount of data you can read per second. <br/>
+
+**Strongly Consistent Read Cost:** <br/>
+A strongly consistent read consumes one RCU per 4KB of data read per second. For example, a strongly consistent read of a 5KB item would consume 2 RCUs (one for 4KB and another for the remaining 1KB). <br/>
+![Screenshot 2025-05-18 162615](https://github.com/user-attachments/assets/491046f4-2bcf-4402-9a78-59876190d0a0)
+
+
 
