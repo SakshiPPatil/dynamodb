@@ -3,7 +3,8 @@
 Amazon DynamoDB is a serverless, fully managed NoSQL database service provided by Amazon Web Services (AWS).In which we can add and reterive any amount of data.DynamoDB supports key-value and document data models.<br>
 The AWS Free Tier for DynamoDB provides 25 GB of data storage. Additionally, it includes 25 provisioned Write Capacity Units (WCUs) and 25 provisioned Read Capacity Units (RCUs), which can handle up to 200 million requests per month.
 
-Key Features:
+<Key Features: <br/>
+--------------------------------------------------------------------------------------------------------------
 **Serverless and Fully Managed:** <br/>
 DynamoDB is managed by AWS, eliminating the need for users to manage servers, databases, or operating systems.<br/> 
 **NoSQL Database:** <br/>
