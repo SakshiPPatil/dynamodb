@@ -25,14 +25,21 @@ Supports key-value and document data models, allowing for flexible data storage 
 **Global Secondary Indexes:**  
 Allows for flexible queries based on attributes other than the primary key.<br/>  
 
-<h5>Key points in dynamodb:</h5>
+-----------------------------------------------------------------------------------------------------------------------------
+
+<h3>Key points in dynamodb:</h3>
 
 **read capacity unit:** <br/>
 DynamoDB measures read operations in RCUs, which determine the amount of data you can read per second. <br/>
 
 **Strongly Consistent Read Cost:** <br/>
 A strongly consistent read consumes one RCU per 4KB of data read per second. For example, a strongly consistent read of a 5KB item would consume 2 RCUs (one for 4KB and another for the remaining 1KB). <br/>
+
+**Eventually Consistent Read Cost:** <br/>
+1 Read Capacity Unit (RCU)=2(eventually consistent reads of up to 4 KB/s per read)
+<br/>
 ![Screenshot 2025-05-18 162615](https://github.com/user-attachments/assets/491046f4-2bcf-4402-9a78-59876190d0a0)
+<br/>
 
 
 
